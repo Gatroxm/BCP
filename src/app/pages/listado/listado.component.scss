@@ -1,0 +1,12 @@
+.content_agencias {
+    height: 100px;
+    margin: 1.5rem 0 1.5rem;
+    .content_avatar {
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        overflow: hidden;
+    }
+    img {
+        height: 100%;
+    }
+}

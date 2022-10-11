@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "pruebaBCP"
+  "defaultProject": "pruebaBCP",
+  "cli": {
+    "analytics": "f43045e8-d760-46c2-8a3d-0de1b1c17090"
+  }
 }

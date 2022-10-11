@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="card-body text-bg-primary">
+        Agencias
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex content_agencias " *ngFor="let agencia of listaAgencias" (click)="view(agencia.id)">
+                <div class="flex-shrink-0 content_avatar">
+                    <img class="img-fluid" src="./assets/img/avatar.jpg">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                    <h5 class="mb-0 mt-3">{{agencia.agencia}}</h5>
+                    <strong class="d-bock">{{agencia.departamento}}</strong>
+                    <p class="m-0">{{agencia.provincia}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
